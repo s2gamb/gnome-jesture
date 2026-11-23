@@ -1,0 +1,26 @@
+.tfd-switcher-overlay {
+    padding: 16px;
+    border-radius: 18px;
+    spacing: 12px;
+}
+
+.tfd-switcher-items {
+    spacing: 10px;
+}
+
+.tfd-switcher-item {
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+}
+
+.tfd-switcher-item-selected {
+    background-color: rgba(255, 255, 255, 0.16);
+    border: 2px solid rgba(255, 255, 255, 0.55);
+}
+
+.tfd-switcher-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    padding: 2px 4px 0 4px;
+}

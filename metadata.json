@@ -1,0 +1,8 @@
+{
+  "uuid": "three-finger-down-window-cycle@local",
+  "name": "Three Finger Down Window Cycle",
+  "description": "Continuously cycle through visible windows on the current workspace with a three-finger down gesture when outside the Activities Overview.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.three-finger-down-window-cycle",
+  "version": 1
+}

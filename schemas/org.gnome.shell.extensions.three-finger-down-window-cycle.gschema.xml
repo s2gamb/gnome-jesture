@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.three-finger-down-window-cycle"
+          path="/org/gnome/shell/extensions/three-finger-down-window-cycle/">
+    <key name="step-distance" type="i">
+      <default>45</default>
+      <range min="10" max="200"/>
+      <summary>Window switch step distance</summary>
+      <description>Downward touchpad travel distance (in unaccelerated pixels) required to advance to the next window during a continuous three-finger down gesture. Smaller values increase switching frequency.</description>
+    </key>
+    <key name="trigger-on-short-swipe" type="b">
+      <default>true</default>
+      <summary>Switch window on short flick</summary>
+      <description>When enabled, a short three-finger down swipe shorter than step-distance (at least 16px) still advances one window on release.</description>
+    </key>
+    <key name="show-preview-overlay" type="b">
+      <default>true</default>
+      <summary>Show Alt+Tab style window preview overlay</summary>
+      <description>When enabled, displays a horizontal window preview switcher while scrolling and activates the selected window on finger release.</description>
+    </key>
+  </schema>
+</schemalist>
